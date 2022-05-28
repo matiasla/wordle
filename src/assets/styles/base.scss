@@ -1,10 +1,19 @@
 // FONTS
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap");
 
-// COLORS
-$background: #f2f2f2;
-$box: #fff;
-$detail: rgb(216, 216, 216);
-$emphasize: #2FBC5E;
-$main: #2E83FE;
-$text: #1f2024;
+// COLORS 
+$background: #121213;
+$background-modal: #121213;
+$text: #FFFFFF;
+$text-light: #FFFFFF;
+$text-dark: #121213;
+$text-secondary: #3A3A3C;
+$key-background: #818384;
+$key-text: #FFFFFF;
+
+// BOX 
+$correct: #538D4E;
+$included: #B59F3B;
+$empty: gray;
+$current: transparent;
+$no-this: transparent;
