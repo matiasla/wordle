@@ -1,0 +1,37 @@
+@import "../../assets/styles/base.scss";
+
+.keyboard {
+    color: $key-text;
+    min-width: 500px;
+
+    // FLEX 
+    display: flex;
+    flex-direction: column;
+
+    .keyboard__row {
+
+        margin-bottom: 6px;
+
+        // FLEX 
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        justify-content: center;
+    }
+
+    .keyboard__key {
+        border: none;
+        border-radius: 6px;
+        background-color: $key-background;
+        color: $key-text;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: .8rem;
+        outline: none;
+        padding: 22px 17px;
+    }
+
+    .keyboard__key:active {
+        opacity: .9;
+    }
+}
