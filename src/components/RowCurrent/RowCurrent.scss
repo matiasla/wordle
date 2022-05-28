@@ -1,0 +1,13 @@
+@import "../../assets/styles/base.scss";
+
+.row-current {
+    color: $text-light;
+    margin-bottom: 5px;
+    min-width: 320px;
+
+    // FLEX 
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+}
