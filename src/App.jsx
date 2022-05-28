@@ -1,4 +1,5 @@
 import Wordle from "./components/Wordle/Wordle";
+import "./App.scss";
 
 function App() {
     return (
