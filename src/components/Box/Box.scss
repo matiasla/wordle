@@ -1,0 +1,39 @@
+@import "../../assets/styles/base.scss";
+
+@mixin box {
+    font-size: 2rem;
+    font-weight: 800;
+    height: 60px;
+    width: 60px;
+
+    // FLEX 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.correct {
+    @include box;
+    background-color: $correct;
+}
+
+.included {
+    @include box;
+    background-color: $included;
+}
+
+.empty {
+    @include box;
+    background-color: transparent;
+}
+
+.current {
+    @include box;
+    border: 2px solid $text-secondary;
+    background-color: transparent;
+}
+
+.no-this {
+    @include box;
+    background-color: gray;
+}
