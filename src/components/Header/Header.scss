@@ -1,0 +1,25 @@
+@import "../../assets/styles/base.scss";
+
+.header {
+    .menu {
+        color: $text-light;
+        border-bottom: 1px solid $text-secondary;
+        padding: 5px 30px;
+
+        // FLEX 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        i {
+            cursor: pointer;
+            font-size: 1.4rem;
+        }
+
+        .menu__title {
+            font-size: 2rem;
+            font-weight: 900;
+        }
+    }
+}
