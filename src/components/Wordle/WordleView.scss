@@ -1,0 +1,20 @@
+.wordle {
+    position: relative;
+    min-height: 100vh;
+
+    .wordle__word-section {
+        margin: auto;
+        margin-top: 25px;
+        width: fit-content;
+    }
+
+    .wordle__keyboard-section {
+        position: absolute;
+        bottom: 5px;
+        width: 100%;
+
+        // FLEX 
+        display: flex;
+        justify-content: center;
+    }
+}
