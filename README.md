@@ -1,5 +1,5 @@
 # wordle
-Wordle es un juego de palabras de navegador<br/>
+Wordle es un juego de palabras de navegador<br/><br/>
 VER DEMO: https://matiasla.github.io/wordle/
 
 ## IMPORTANTE 1: la palabra secreta se encuentra almacenada en storage, si se quiere probar el juego, para ganar
